@@ -1,5 +1,6 @@
-Lib
-Scripts
+.*
+Lib/
+Scripts/
+.idea/
+.git/
 pyvenv.cfg
-.idea
-.git
