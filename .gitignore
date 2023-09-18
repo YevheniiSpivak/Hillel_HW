@@ -1,4 +1,6 @@
-.ssh
-Lib
-Scripts
+.*
+Lib/
+Scripts/
+.idea/
+.git/
 pyvenv.cfg
