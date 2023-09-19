@@ -1,5 +1,4 @@
-print('Please write the number to convert')
-money = float(input())
+money = float(input('Please write the number to convert\n'))
 
 # course, ua_usd == convert ua in usd
 ua_usd, usd_ua = 37.99, 37.39
