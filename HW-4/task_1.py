@@ -1,5 +1,3 @@
-# Написати калькулятор, який приймає 2 числа та може проводити операції '+', '-', '*', '/'
-
 first_number = int(input('Enter first number: '))
 action = input('Action: ')
 second_number = int(input('Second number: '))
