@@ -1,3 +1,5 @@
-phrase1, phrase2 = input(), input()
+phrase1 = input('- I can compare the identity of the text, please write first text\n- ')
+phrase2 = input('- And second..\n- ')
 
-print(phrase1, phrase2)
+print('- It`s', phrase1 == phrase2)
+
