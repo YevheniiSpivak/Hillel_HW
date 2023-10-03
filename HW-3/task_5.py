@@ -1,3 +1,4 @@
-phrase, n = input(), int(input())
+phrase = input('- I can multiply your text by n times. Please write some text\n- ')
+n = int(input('- How many times to multiply?\n- '))
 
-print(phrase * n)
+print('- Result:', '\"' + phrase.strip() * n + '\"')
