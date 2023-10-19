@@ -9,7 +9,8 @@ def is_prime(number):
         x += 2
     return x * x > number
 
-if 2 < number < 1001:
+
+if 2 <= number <= 1001:
     print(f'{number} is prime: {is_prime(number)}')
 else:
     print(f'Please enter a number between 2 and 1000, your nubmer {number} isn\'t suitable')
