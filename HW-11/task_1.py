@@ -1,6 +1,6 @@
 def my_max(*args):
     if not args:
-        raise ValueError('Argument not passed')
+        raise TypeError('my_max expected at least 1 argument, got 0')
 
     if len(args) == 1:
         return args
