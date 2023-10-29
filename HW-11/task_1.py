@@ -7,9 +7,9 @@ def my_max(*args):
 
     max_num = args[0]
 
-    for numbers in args[1:]:
-        if numbers > max_num:
-            max_num = numbers
+    for number in args[1:]:
+        if number > max_num:
+            max_num = number
 
     return max_num
 

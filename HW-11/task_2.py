@@ -7,9 +7,9 @@ def my_min(*args):
 
     min_num = args[0]
 
-    for numbers in args[1:]:
-        if numbers < min_num:
-            min_num = numbers
+    for number in args[1:]:
+        if number < min_num:
+            min_num = number
 
     return min_num
 
